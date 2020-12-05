@@ -13,9 +13,6 @@
   "repository": {
     "url": "git://github.com/angularfy/autonumeric.git"
   },
-  "files": [
-    "dist"
-  ],
   "dependencies": {},
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
