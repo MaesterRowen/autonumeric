@@ -14,7 +14,7 @@
     "url": "git://github.com/angularfy/autonumeric.git"
   },
   "files": [
-    "dist/**"
+    "/dist/**"
   ],
   "dependencies": {},
   "devDependencies": {
