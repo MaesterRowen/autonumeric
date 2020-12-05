@@ -1,0 +1,10 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { AutonumericDefaults, defaultsFactory, USER_DEFAULTS, AutonumericModule } from './index';
+export { AUTONUMERIC_CONTROL_VALUE_ACCESSOR as ɵa, AutonumericDirective as ɵb } from './lib/autonumeric.directive';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhcmZ5LWF1dG9udW1lcmljLXNyYy5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0Bhbmd1bGFyZnkvYXV0b251bWVyaWMvc3JjLyIsInNvdXJjZXMiOlsiYW5ndWxhcmZ5LWF1dG9udW1lcmljLXNyYy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBSUEsdUZBQWMsU0FBUyxDQUFDO0FBRXhCLE9BQU8sRUFBQyxrQ0FBa0MsSUFBSSxFQUFFLEVBQUMsb0JBQW9CLElBQUksRUFBRSxFQUFDLE1BQU0sNkJBQTZCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEdlbmVyYXRlZCBidW5kbGUgaW5kZXguIERvIG5vdCBlZGl0LlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vaW5kZXgnO1xuXG5leHBvcnQge0FVVE9OVU1FUklDX0NPTlRST0xfVkFMVUVfQUNDRVNTT1IgYXMgybVhLEF1dG9udW1lcmljRGlyZWN0aXZlIGFzIMm1Yn0gZnJvbSAnLi9saWIvYXV0b251bWVyaWMuZGlyZWN0aXZlJzsiXX0=

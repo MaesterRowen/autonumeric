@@ -1,0 +1,51 @@
+{
+  "name": "@angularfy/autonumeric/src",
+  "version": "3.0.3",
+  "description": "Angular implementation of autoNumeric",
+  "keywords": [
+    "angular",
+    "numeric",
+    "components",
+    "autonumeric",
+    "autonumeric",
+    "auto",
+    "numeric",
+    "number",
+    "mask",
+    "decimal",
+    "regex",
+    "mask"
+  ],
+  "author": "Abdelghani AINOUSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angularfy/autonumeric.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angularfy/autonumeric/issues"
+  },
+  "homepage": "http://www.angularfy.com/projects/autonumeric",
+  "peerDependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.1",
+    "autonumeric": "^4.0.1"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.1",
+    "autonumeric": "^4.0.1"
+  },
+  "main": "../bundles/angularfy-autonumeric-src.umd.js",
+  "module": "../fesm5/angularfy-autonumeric-src.js",
+  "es2015": "../fesm2015/angularfy-autonumeric-src.js",
+  "esm5": "../esm5/src/angularfy-autonumeric-src.js",
+  "esm2015": "../esm2015/src/angularfy-autonumeric-src.js",
+  "fesm5": "../fesm5/angularfy-autonumeric-src.js",
+  "fesm2015": "../fesm2015/angularfy-autonumeric-src.js",
+  "typings": "angularfy-autonumeric-src.d.ts",
+  "metadata": "angularfy-autonumeric-src.metadata.json",
+  "sideEffects": false
+}

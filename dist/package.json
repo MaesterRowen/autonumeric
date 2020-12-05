@@ -1,19 +1,13 @@
 {
   "name": "@angularfy/autonumeric",
   "version": "3.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng-packagr -p package.json",
-    "pack": "cd dist/autonumeric && npm pack",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
   "private": false,
   "repository": {
     "url": "git://github.com/angularfy/autonumeric.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
     "@angular-devkit/build-ng-packagr": "~0.10.0",
@@ -39,5 +33,15 @@
     "tsickle": "^0.34.2",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "main": "bundles/angularfy-autonumeric.umd.js",
+  "module": "fesm5/angularfy-autonumeric.js",
+  "es2015": "fesm2015/angularfy-autonumeric.js",
+  "esm5": "esm5/angularfy-autonumeric.js",
+  "esm2015": "esm2015/angularfy-autonumeric.js",
+  "fesm5": "fesm5/angularfy-autonumeric.js",
+  "fesm2015": "fesm2015/angularfy-autonumeric.js",
+  "typings": "angularfy-autonumeric.d.ts",
+  "metadata": "angularfy-autonumeric.metadata.json",
+  "sideEffects": false
 }

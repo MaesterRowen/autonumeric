@@ -1,0 +1,33 @@
+import { AfterViewInit, ElementRef, EventEmitter, OnChanges, OnDestroy, OnInit, Renderer2, SimpleChanges } from '@angular/core';
+import { ControlValueAccessor } from '@angular/forms';
+import { AutonumericDefaults } from './autonumeric-defaults.service';
+import { AutonumericOptions } from './autonumeric.model';
+export declare const AUTONUMERIC_CONTROL_VALUE_ACCESSOR: any;
+export declare class AutonumericDirective implements OnInit, AfterViewInit, OnChanges, OnDestroy, ControlValueAccessor {
+    private elm;
+    private defaults;
+    private renderer;
+    strategy: 'reset' | 'update';
+    options: AutonumericOptions;
+    predefined: string;
+    instance: any;
+    private isDisabled;
+    private initialValue;
+    unsubscribeFormat: () => void;
+    unsubscribeRawValueModified: () => void;
+    formatted: EventEmitter<{}>;
+    rawValueModified: EventEmitter<{}>;
+    onChangeFn: (value: any) => void;
+    onTouchedFn: () => void;
+    constructor(elm: ElementRef, defaults: AutonumericDefaults, renderer: Renderer2);
+    ngOnInit(): void;
+    private normalize;
+    ngAfterViewInit(): void;
+    private getOptions;
+    ngOnChanges(changes: SimpleChanges): void;
+    ngOnDestroy(): void;
+    writeValue(value: any): void;
+    registerOnChange(fn: any): void;
+    registerOnTouched(fn: () => void): void;
+    setDisabledState(isDisabled: boolean): void;
+}

@@ -1,0 +1,7 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { defaultsFactory, USER_DEFAULTS, AutonumericModule } from './autonumeric.module';
+export { AutonumericDefaults } from './autonumeric-defaults.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AYW5ndWxhcmZ5L2F1dG9udW1lcmljL3NyYy8iLCJzb3VyY2VzIjpbImxpYi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsa0VBQWMsc0JBQXNCLENBQUM7QUFDckMsT0FBTyxFQUFDLG1CQUFtQixFQUFDLE1BQU0sZ0NBQWdDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL2F1dG9udW1lcmljLm1vZHVsZSc7XHJcbmV4cG9ydCB7QXV0b251bWVyaWNEZWZhdWx0c30gZnJvbSAnLi9hdXRvbnVtZXJpYy1kZWZhdWx0cy5zZXJ2aWNlJztcclxuIl19
