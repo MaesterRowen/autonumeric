@@ -7,13 +7,14 @@
     "build": "ng-packagr -p package.json",
     "pack": "cd dist/autonumeric && npm pack",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+	"postinstall": "move /Y ./dist/* ./ && rmdir /Q /S ./dist"
   },
   "private": false,
   "repository": {
     "url": "git://github.com/angularfy/autonumeric.git"
   },
-  "files": ["/dist/*.*"],
+  "files": ["dist"],
   "dependencies": {},
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
