@@ -15,7 +15,7 @@
   },
   "main": "./dist/ckeditor.js",
   "files": [
-    "./dist"
+    "dist/**"
   ],
   "dependencies": {},
   "devDependencies": {
