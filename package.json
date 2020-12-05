@@ -13,9 +13,8 @@
   "repository": {
     "url": "git://github.com/angularfy/autonumeric.git"
   },
-  "main": "./dist/ckeditor.js",
   "files": [
-    "./dist"
+    "/dist"
   ],
   "dependencies": {},
   "devDependencies": {
