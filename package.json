@@ -7,8 +7,7 @@
     "build": "ng-packagr -p package.json",
     "pack": "cd dist/autonumeric && npm pack",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-	"postinstall": "move /Y ./dist/* ./ && rmdir /Q /S ./dist"
+    "e2e": "ng e2e"
   },
   "private": false,
   "repository": {
