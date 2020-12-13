@@ -1,7 +1,7 @@
 {
   "name": "@angularfy/autonumeric",
   "version": "3.0.0",
-  "private": false,
+  "private": true,
   "repository": {
     "url": "git://github.com/angularfy/autonumeric.git"
   },
